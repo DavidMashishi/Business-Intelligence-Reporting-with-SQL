@@ -35,7 +35,7 @@ The analysis covers:
 
 Rather than focusing solely on SQL syntax, the project focuses on **solving business problems through reusable analytical reporting tables** that support strategic decision-making.
 
-![1 Business Intelligence Reporting Workflow](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/cf78cae196fd92890626185c179cd61b240d237f/images/1%20Business%20Intelligence%20Reporting%20Workflow.png)
+![4 End to End Pipeline](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/4%20End%20to%20End%20BI%20Pipeline.png)
 
 ---
 
@@ -83,6 +83,8 @@ The project uses a **Star Schema** consisting of one fact table and two dimensio
 
 The underlying model contains transactional sales data together with customer and product dimensions.
 
+![Entity Relationship Diagram ](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/0%20Entity%20Relationship%20Diagram.png)
+
 ---
 
 ## ⭐ Data Model
@@ -94,6 +96,8 @@ The database follows a **Star Schema** consisting of:
 - `gold.dim_products`
 
 This structure separates transactional measures from descriptive customer and product attributes, providing a foundation for analytical reporting.
+
+
 
 ---
 
@@ -168,6 +172,7 @@ This structure separates transactional measures from descriptive customer and pr
 | SQL Architecture | CTEs, Views, `PARTITION BY`, `GROUP BY` |
 
 ---
+![Business Intelligence Reporting Workflow](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/1%20Business%20Intelligence%20Reporting%20Workflow.png)
 
 # 🔍 Detailed Analysis
 
@@ -358,10 +363,24 @@ The product reporting layer supports:
 ### Dashboard Pages
 
 - **Executive Dashboard**
+  
+  ![Executive dashboard](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/Executive%20Dashboard.png)
+  
 - **Sales Performance Dashboard**
+
+  ![Sales Trends](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/Sales%20Trends.png)
+  
 - **Customer Dashboard**
+
+  ![Customer Analytics](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/Customer%20Analytics.png)
+  
 - **Product Dashboard**
+  
+  ![Product Analytics](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/Product%20Analytics.png)
+  
 - **Category Performance**
+  
+  ![Category Performance](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/0578c01db4f564a3608a7d8228ab707120119875/images/Category%20Performance.png)
 
 This creates an end-to-end workflow from transactional data through SQL analysis to interactive Business Intelligence reporting.
 

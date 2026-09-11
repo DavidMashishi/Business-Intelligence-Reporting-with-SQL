@@ -35,6 +35,8 @@ The analysis covers:
 
 Rather than focusing solely on SQL syntax, the project focuses on **solving business problems through reusable analytical reporting tables** that support strategic decision-making.
 
+![1 Business Intelligence Reporting Workflow](https://github.com/DavidMashishi/Business-Intelligence-Reporting-with-SQL/blob/cf78cae196fd92890626185c179cd61b240d237f/images/1%20Business%20Intelligence%20Reporting%20Workflow.png)
+
 ---
 
 ## 💼 Business Problem
